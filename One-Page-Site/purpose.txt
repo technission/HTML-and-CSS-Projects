@@ -1,0 +1,6 @@
+The purpose of this one page site it to list several apps used to write code.  
+There will be a gallery with links to the apps. Along with thumbnails. 
+There will be a video with one app that plays via my site. 
+There will be a contact form in case a developer wishes me to display their app(s)
+Footer. 
+A navigation. 
