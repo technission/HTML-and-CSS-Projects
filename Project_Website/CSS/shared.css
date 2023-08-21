@@ -235,6 +235,10 @@ section {
 	margin: 0 auto;
 }
 
+.rsvp-text {
+    text-align: center;
+}
+
 .reservation form {
 	font-size: 15px;
 	outline: none;
@@ -250,7 +254,7 @@ section {
 	font-family: 'Raleway', sans-serif;
 }
 
-reservation input[type="text"] {
+.reservation input[type="text"] {
 	font-size: 15px;
 	outline: none;
 	font-weight: 600;
@@ -263,7 +267,7 @@ reservation input[type="text"] {
     border-left: 1px solid #090B0D; 
     margin: 10px 1em;
 	border-radius: 7px;
-	background: #13161B;
+	background: #ffffff;
 	box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15); 
     font-family: 'Raleway', sans-serif;
 }
@@ -276,7 +280,7 @@ reservation input[type="text"] {
 	padding: 30px 39px;
 }
 
-terms {
+.terms {
 	margin: 30px 1px 0 0;
 	margin-top: 13%;
 	padding-left: 52px;
