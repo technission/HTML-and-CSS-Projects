@@ -1,0 +1,15 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.form input{
+    font-size: 10px;
+    width: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    border: 3px solid #555;
+    border-radius: 10px;
+}
