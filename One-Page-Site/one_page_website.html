@@ -5,6 +5,7 @@
         <title>Mobile Developer Tools Reviews</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="./css/one_page_website.css">
+        <script src="./js/one_page_website.js" defer></script>
     </head>
     <!-- END HEADING -->
     
@@ -12,12 +13,11 @@
         
         <!-- NAV -->
         <div>
-            <div>
-                <ul>
-                    <a href="#home" id="link"><li>HOME</li></a>
-                    <a href="#showcase" id="link"><li>SHOWCASE</li></a>
-                    <a href="#contact" id="link"><li>CONTACT</li></a>
-                </ul>
+            <div class="topnav">
+                    <a href="#home" id="link">HOME</a>
+                    <a href="#screenshots" id="link">SCREENSHOTS</a>
+                    <a href="#samples" id="link">SAMPLES</a>
+                    <a href="#contact" id="link">CONTACT</a>
             </div>
         </div>
         <!-- END NAV -->
@@ -106,7 +106,81 @@
         </div>
         </section>
         <!-- END SHOWCASE -->
-        
+        <!--SCREENSHOTS-->
+        <div id="screenshots">
+            <h2>This section is displaying some screenshots of xCode. xCode is one of the most useful tools at your disposal as an IOS developer.</h2>
+            <!--LIGHTBOX-->
+                <!-- Images used to open the lightbox -->
+                <div class="row">
+                    <div class="column">
+                    <img src="./images/xcodelittle-1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                    <img src="./images/xcodelittle-2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                    <img src="./images/xcodelittle-3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                    <img src="./images/xcodelittle-4.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                </div>
+                
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="./images/xcodebig-1.png" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="./images/xcodebig-2.jpeg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="./images/xcodebig-3.png" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="./images/xcodebig-4.jpeg" style="width:100%">
+                    </div>
+                
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                    <!-- Caption text -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                
+                    <!-- Thumbnail image controls -->
+                    <div class="littlepics">
+                        <img class="demo" src="./images/xcodelittle-1.png" onclick="currentSlide(1)" alt="1st Screenshot">
+                    </div>
+                
+                    <div class="littlepics">
+                        <img class="demo" src="./images/xcodelittle-2.jpeg" onclick="currentSlide(2)" alt="2nd Screenshot">
+                    </div>
+                
+                    <div class="littlepics">
+                        <img class="demo" src="./images/xcodelittle-3.png" onclick="currentSlide(3)" alt="3rd Screenshot">
+                    </div>
+                
+                    <div class="littlepics">
+                        <img class="demo" src="./images/xcodelittle-4.jpeg" onclick="currentSlide(4)" alt="4th Screenshot">
+                    </div>
+                    </div>
+                </div>
+            <!--END LIGHTBOX-->
+        </div>
+        <!--END SCREENSHOTS-->
         <!-- CONTACT FORM -->
         <section>
             <div id="contact">
